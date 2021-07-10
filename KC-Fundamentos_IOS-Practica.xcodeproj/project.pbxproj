@@ -37,6 +37,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6E39C826998AAF00065BF3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FDB652697087D007C402B /* Info.plist */,
+				5F7FDB572697087D007C402B /* AppDelegate.swift */,
+				5F7FDB592697087D007C402B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5F6E39C926998AB900065BF3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E39CC26998BFE00065BF3 /* Home */,
+				5F6E39CB26998BE900065BF3 /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5F6E39CA26998AD600065BF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FDB602697087D007C402B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F6E39CB26998BE900065BF3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E39CD26998C7900065BF3 /* Views */,
+				5F6E39CE26998C8500065BF3 /* Controllers */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5F6E39CC26998BFE00065BF3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E39CF26998C9E00065BF3 /* Views */,
+				5F6E39D026998CA700065BF3 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5F6E39CD26998C7900065BF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FDB622697087D007C402B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F6E39CE26998C8500065BF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F6E39CF26998C9E00065BF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FDB5D2697087D007C402B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F6E39D026998CA700065BF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FDB5B2697087D007C402B /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5F7FDB4B2697087D007C402B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +132,9 @@
 		5F7FDB562697087D007C402B /* KC-Fundamentos_IOS-Practica */ = {
 			isa = PBXGroup;
 			children = (
-				5F7FDB572697087D007C402B /* AppDelegate.swift */,
-				5F7FDB592697087D007C402B /* SceneDelegate.swift */,
-				5F7FDB5B2697087D007C402B /* MainViewController.swift */,
-				5F7FDB5D2697087D007C402B /* Main.storyboard */,
-				5F7FDB602697087D007C402B /* Assets.xcassets */,
-				5F7FDB622697087D007C402B /* LaunchScreen.storyboard */,
-				5F7FDB652697087D007C402B /* Info.plist */,
+				5F6E39C826998AAF00065BF3 /* App */,
+				5F6E39CA26998AD600065BF3 /* Resources */,
+				5F6E39C926998AB900065BF3 /* Features */,
 			);
 			path = "KC-Fundamentos_IOS-Practica";
 			sourceTree = "<group>";
