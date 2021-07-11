@@ -13,6 +13,7 @@
 		5F7FDB5F2697087D007C402B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB5D2697087D007C402B /* Main.storyboard */; };
 		5F7FDB612697087D007C402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB602697087D007C402B /* Assets.xcassets */; };
 		5F7FDB642697087D007C402B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB622697087D007C402B /* LaunchScreen.storyboard */; };
+		5FA3117B269ABA400016B58A /* hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA3117A269ABA400016B58A /* hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5F7FDB602697087D007C402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F7FDB632697087D007C402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F7FDB652697087D007C402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA3117A269ABA400016B58A /* hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +136,26 @@
 			children = (
 				5F6E39C826998AAF00065BF3 /* App */,
 				5F6E39CA26998AD600065BF3 /* Resources */,
+				5FA31178269AB9E70016B58A /* Domain */,
 				5F6E39C926998AB900065BF3 /* Features */,
 			);
 			path = "KC-Fundamentos_IOS-Practica";
+			sourceTree = "<group>";
+		};
+		5FA31178269AB9E70016B58A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5FA31179269ABA080016B58A /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5FA31179269ABA080016B58A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FA3117A269ABA400016B58A /* hero.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +231,7 @@
 				5F7FDB5C2697087D007C402B /* MainViewController.swift in Sources */,
 				5F7FDB582697087D007C402B /* AppDelegate.swift in Sources */,
 				5F7FDB5A2697087D007C402B /* SceneDelegate.swift in Sources */,
+				5FA3117B269ABA400016B58A /* hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

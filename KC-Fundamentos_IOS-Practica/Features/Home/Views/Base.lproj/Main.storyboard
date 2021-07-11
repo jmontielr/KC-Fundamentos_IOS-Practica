@@ -15,18 +15,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bck_launch" translatesAutoresizingMaskIntoConstraints="NO" id="wVg-zb-QLr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="rc8-tc-Erp">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rc8-tc-Erp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EIc-LV-bYn"/>
+                            <constraint firstItem="rc8-tc-Erp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PNa-Lt-Gbd"/>
+                            <constraint firstAttribute="trailing" secondItem="wVg-zb-QLr" secondAttribute="trailing" id="Qcl-b5-RvN"/>
+                            <constraint firstItem="rc8-tc-Erp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="THY-wR-45i"/>
+                            <constraint firstItem="wVg-zb-QLr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tn1-ca-oVk"/>
+                            <constraint firstItem="wVg-zb-QLr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ozB-4o-x3t"/>
+                            <constraint firstAttribute="bottom" secondItem="wVg-zb-QLr" secondAttribute="bottom" id="xCh-6e-NJv"/>
+                            <constraint firstItem="rc8-tc-Erp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yQe-v2-TR7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="95"/>
+            <point key="canvasLocation" x="131.8840579710145" y="94.419642857142847"/>
         </scene>
     </scenes>
     <resources>
+        <image name="img_bck_launch" width="250" height="541.33331298828125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
