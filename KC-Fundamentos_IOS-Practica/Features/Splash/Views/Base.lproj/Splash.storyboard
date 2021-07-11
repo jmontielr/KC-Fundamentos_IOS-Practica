@@ -41,11 +41,22 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="activityIndicator" destination="rc8-tc-Erp" id="nJZ-kK-kcs"/>
+                        <segue destination="bLA-ja-qMy" kind="show" identifier="SEGUE_FROM_SPLASH_TO_HOME" id="DfV-Lc-MIa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="94.419642857142847"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="0aj-9P-vU8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="bLA-ja-qMy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iAz-K8-njC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26D-qs-jKV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zmK-No-EFW">

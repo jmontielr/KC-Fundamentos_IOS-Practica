@@ -7,6 +7,8 @@
 
 import UIKit
 
+//SEGUE_FROM_SPLASH_TO_HOME
+
 class SplashViewController: UIViewController {
     
     // MARK: - IOOutlets
@@ -37,8 +39,10 @@ class SplashViewController: UIViewController {
     // MARK: - Private methods
     private func loadData(){
         //Simula la carga de datos en otro hilo auxiliar al main
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)){
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)){ [weak self] in
             print("Load data completed")
+            
+            self?.performSegue(withIdentifier: "SEGUE_FROM_SPLASH_TO_HOME", sender: nil)
         }
     }
 }
