@@ -42,7 +42,13 @@ class SplashViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)){ [weak self] in
             print("Load data completed")
             
-            self?.performSegue(withIdentifier: "SEGUE_FROM_SPLASH_TO_HOME", sender: nil)
+            //Deja back que no nos interesa que se pueda volver al Splash
+            //self?.performSegue(withIdentifier: "SEGUE_FROM_SPLASH_TO_HOME", sender: nil)
+            
+            let storyBoardHome = UIStoryboard(name: "Home", bundle: nil)
+            if let destination = storyBoardHome.instantiateInitialViewController(){
+                self?.navigationController?.setViewControllers([destination], animated: true)
+            }
         }
     }
 }

@@ -8,6 +8,9 @@
 import Foundation
 
 class SuperNaturalPersonRepository{
+    //static let shared = SuperNaturalPersonRepository()
+    //private init() {}
+    
     var heroesList: Heroes{
         [SuperNaturalPerson(image: "image_heroe_america_captain",nickname:"America Captain",description: "America Captain Descr",score: 9),
          SuperNaturalPerson(image: "image_heroe_black_panther",nickname:"Black Panther",description: "Black Panther Descr",score: 8.7),
