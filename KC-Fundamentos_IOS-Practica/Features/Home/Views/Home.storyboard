@@ -31,16 +31,18 @@
                                                     <rect key="frame" x="8" y="8" width="398" height="130"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="YR0-47-FJ3">
-                                                            <rect key="frame" x="8" y="8" width="382" height="114"/>
+                                                            <rect key="frame" x="8" y="8" width="368" height="100"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fpH-1n-jW5">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="114" height="114"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" secondItem="fpH-1n-jW5" secondAttribute="height" multiplier="1:1" id="1nx-jy-PRh"/>
+                                                                        <constraint firstAttribute="width" constant="100" id="H9C-9V-E71"/>
+                                                                        <constraint firstAttribute="height" constant="100" id="nOW-yZ-iJ1"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="146" translatesAutoresizingMaskIntoConstraints="NO" id="IWc-uj-GtN">
-                                                                    <rect key="frame" x="153" y="0.0" width="229" height="60"/>
+                                                                    <rect key="frame" x="139" y="0.0" width="229" height="60"/>
                                                                     <subviews>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="XfY-fh-X7T">
                                                                             <rect key="frame" x="0.0" y="0.0" width="41.5" height="60"/>
@@ -136,13 +138,15 @@
                                                             <rect key="frame" x="8" y="8" width="382" height="114"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pk7-7H-XYR">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="114" height="114"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" secondItem="pk7-7H-XYR" secondAttribute="height" multiplier="1 : 1" id="at0-qd-CJS"/>
+                                                                        <constraint firstAttribute="width" constant="100" id="dzd-Od-daL"/>
+                                                                        <constraint firstAttribute="height" constant="100" id="lOd-Qc-Rbm"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="142" translatesAutoresizingMaskIntoConstraints="NO" id="dTr-SN-mXd">
-                                                                    <rect key="frame" x="138" y="0.0" width="244" height="49"/>
+                                                                    <rect key="frame" x="124" y="0.0" width="258" height="49"/>
                                                                     <subviews>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RK7-TP-7mO">
                                                                             <rect key="frame" x="0.0" y="0.0" width="41.5" height="49"/>
@@ -162,7 +166,7 @@
                                                                             </subviews>
                                                                         </stackView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ead-OA-xSW">
-                                                                            <rect key="frame" x="183.5" y="14.5" width="60.5" height="20.5"/>
+                                                                            <rect key="frame" x="183.5" y="14.5" width="74.5" height="20.5"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>

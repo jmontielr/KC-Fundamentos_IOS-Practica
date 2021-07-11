@@ -20,7 +20,11 @@ class HeroesHomeTableViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        tableView.delegate = self
+        tableView.dataSource = self
+
         loadData()
+        //tableView.reloadData()
     }
 
     private func loadData() {

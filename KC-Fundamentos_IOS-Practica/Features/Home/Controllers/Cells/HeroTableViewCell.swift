@@ -59,7 +59,7 @@ class HeroTableViewCell: UITableViewCell {
     }
 
     private func update(score: Float?) {
-        self.score.text = "\(String(describing: score))"
+        self.score.text = "\(String(describing: score ?? 0))"
     }
 
 }
