@@ -8,7 +8,7 @@
 import UIKit
 
 class HeroTableViewCell: UITableViewCell {
-    static let cellIdentifier: String = "\(HeroTableViewCell.self)"
+    static let cellIdentifier: String = String(describing: HeroTableViewCell.self)
     
     //MARK: - IBOutlets
     @IBOutlet weak var cellView: UIView!

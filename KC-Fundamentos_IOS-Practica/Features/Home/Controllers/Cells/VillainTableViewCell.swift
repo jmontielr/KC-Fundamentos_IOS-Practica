@@ -8,7 +8,7 @@
 import UIKit
 
 class VillainTableViewCell: UITableViewCell {
-    static let cellIdentifier: String = "\(VillainTableViewCell.self)"
+    static let cellIdentifier: String = String(describing: VillainTableViewCell.self)
     
     //MARK: - IBOutlets
     @IBOutlet weak var cellView: UIView!
