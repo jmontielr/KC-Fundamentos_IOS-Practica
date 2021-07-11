@@ -11,8 +11,9 @@ typealias Heroes = [SuperNaturalPerson]
 typealias Villains = [SuperNaturalPerson]
 
 struct SuperNaturalPerson {
-    var image: String? = nil
+    var imageSNP: String? = nil
     var nickname: String
-    var description: String
+    var sdescription: String //short description
+    var ldescription: String //long description
     var score: Float = 0.0
 }

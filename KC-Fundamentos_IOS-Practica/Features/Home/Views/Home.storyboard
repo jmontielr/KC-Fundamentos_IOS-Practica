@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="146" id="hhQ-Zg-E0A">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="146" id="hhQ-Zg-E0A" customClass="VillainTableViewCell" customModule="KC_Fundamentos_IOS_Practica" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hhQ-Zg-E0A" id="E5t-Sn-iJ4">
@@ -70,7 +70,7 @@
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="YR0-47-FJ3" secondAttribute="trailing" constant="8" id="NNw-dD-dyi"/>
                                                         <constraint firstItem="YR0-47-FJ3" firstAttribute="leading" secondItem="Lpw-OK-8tI" secondAttribute="leading" constant="8" id="Z5L-d8-zTl"/>
@@ -80,6 +80,13 @@
                                                 </view>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellView" destination="Lpw-OK-8tI" id="4G1-fv-1Ld"/>
+                                            <outlet property="imageSNP" destination="fpH-1n-jW5" id="kyi-0c-ilV"/>
+                                            <outlet property="nickname" destination="e2y-gc-1cA" id="aZt-FY-99t"/>
+                                            <outlet property="score" destination="ktB-YF-fuD" id="beu-vd-BEY"/>
+                                            <outlet property="sdescription" destination="ohQ-P0-GnT" id="duB-2T-FBf"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -112,7 +119,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="separatorColor" systemColor="systemPinkColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="146" id="N04-hN-3x6">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="146" id="N04-hN-3x6" customClass="HeroTableViewCell" customModule="KC_Fundamentos_IOS_Practica" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N04-hN-3x6" id="tY6-yD-5ZL">
@@ -162,7 +169,7 @@
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="Ykg-SF-EI3" firstAttribute="top" secondItem="mDP-9s-yDa" secondAttribute="top" constant="8" id="1f7-DO-zin"/>
                                                         <constraint firstAttribute="bottom" secondItem="Ykg-SF-EI3" secondAttribute="bottom" constant="8" id="ZmC-b5-hXR"/>
@@ -178,6 +185,13 @@
                                                 <constraint firstAttribute="trailing" secondItem="mDP-9s-yDa" secondAttribute="trailing" constant="8" id="VSg-jY-qIC"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellView" destination="mDP-9s-yDa" id="1A0-9I-Sgg"/>
+                                            <outlet property="imageSNP" destination="pk7-7H-XYR" id="lKx-cl-GvP"/>
+                                            <outlet property="nickname" destination="pL2-we-vOC" id="LXj-vb-zbr"/>
+                                            <outlet property="score" destination="Ead-OA-xSW" id="4Mi-IA-Cz2"/>
+                                            <outlet property="sdescription" destination="xgZ-rb-DqM" id="tDL-XD-U9p"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -222,14 +236,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
