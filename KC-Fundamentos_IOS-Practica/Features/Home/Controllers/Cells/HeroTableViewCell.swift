@@ -47,7 +47,7 @@ class HeroTableViewCell: UITableViewCell {
     }
     
     private func update(image: String?) {
-        imageSNP.image = UIImage(named: image ?? "")
+        self.imageSNP.image = UIImage(named: image ?? "")
     }
 
     private func update(nickname: String?) {
