@@ -8,6 +8,7 @@
 import UIKit
 
 class HeroTableViewCell: UITableViewCell {
+    static let cellIdentifier: String = "\(HeroTableViewCell.self)"
     
     //MARK: - IBOutlets
     @IBOutlet weak var cellView: UIView!
@@ -19,6 +20,8 @@ class HeroTableViewCell: UITableViewCell {
     //MARK: - Lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        selectionStyle = .none
         
         cellView.layer.cornerRadius = 4.0
         cellView.layer.shadowColor = UIColor.gray.cgColor

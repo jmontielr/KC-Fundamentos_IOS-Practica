@@ -11,7 +11,7 @@
         <!--Villains-->
         <scene sceneID="nSL-B3-rGh">
             <objects>
-                <viewController id="z0x-3a-Kdm" sceneMemberID="viewController">
+                <viewController id="z0x-3a-Kdm" customClass="VillainsHomeTableViewController" customModule="KC_Fundamentos_IOS_Practica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Xm-21-Na2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
         <!--Heroes-->
         <scene sceneID="Ktz-G7-X1B">
             <objects>
-                <viewController id="Eam-ph-M7U" sceneMemberID="viewController">
+                <viewController id="Eam-ph-M7U" customClass="HeroesHomeTableViewController" customModule="KC_Fundamentos_IOS_Practica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pSt-ck-rkv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5F7FDB582697087D007C402B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FDB572697087D007C402B /* AppDelegate.swift */; };
 		5F7FDB5A2697087D007C402B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FDB592697087D007C402B /* SceneDelegate.swift */; };
-		5F7FDB5C2697087D007C402B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FDB5B2697087D007C402B /* MainViewController.swift */; };
+		5F7FDB5C2697087D007C402B /* VillainsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FDB5B2697087D007C402B /* VillainsHomeTableViewController.swift */; };
 		5F7FDB5F2697087D007C402B /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB5D2697087D007C402B /* Splash.storyboard */; };
 		5F7FDB612697087D007C402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB602697087D007C402B /* Assets.xcassets */; };
 		5F7FDB642697087D007C402B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FDB622697087D007C402B /* LaunchScreen.storyboard */; };
@@ -19,13 +19,14 @@
 		5FA31182269AE4B10016B58A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA31181269AE4B10016B58A /* Home.storyboard */; };
 		5FA31185269B053A0016B58A /* VillainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA31184269B053A0016B58A /* VillainTableViewCell.swift */; };
 		5FA31187269B10DE0016B58A /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA31186269B10DE0016B58A /* HeroTableViewCell.swift */; };
+		5FA31189269B13950016B58A /* HeroesHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA31188269B13950016B58A /* HeroesHomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F7FDB542697087D007C402B /* KC-Fundamentos_IOS-Practica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KC-Fundamentos_IOS-Practica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7FDB572697087D007C402B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F7FDB592697087D007C402B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F7FDB5B2697087D007C402B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5F7FDB5B2697087D007C402B /* VillainsHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainsHomeTableViewController.swift; sourceTree = "<group>"; };
 		5F7FDB5E2697087D007C402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		5F7FDB602697087D007C402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F7FDB632697087D007C402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		5FA31181269AE4B10016B58A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		5FA31184269B053A0016B58A /* VillainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTableViewCell.swift; sourceTree = "<group>"; };
 		5FA31186269B10DE0016B58A /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		5FA31188269B13950016B58A /* HeroesHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesHomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				5FA31183269B04FC0016B58A /* Cells */,
-				5F7FDB5B2697087D007C402B /* MainViewController.swift */,
+				5F7FDB5B2697087D007C402B /* VillainsHomeTableViewController.swift */,
+				5FA31188269B13950016B58A /* HeroesHomeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -260,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7FDB5C2697087D007C402B /* MainViewController.swift in Sources */,
+				5F7FDB5C2697087D007C402B /* VillainsHomeTableViewController.swift in Sources */,
 				5F7FDB582697087D007C402B /* AppDelegate.swift in Sources */,
+				5FA31189269B13950016B58A /* HeroesHomeTableViewController.swift in Sources */,
 				5FA3117E269ABE300016B58A /* superNaturalPersonRepository.swift in Sources */,
 				5FA31187269B10DE0016B58A /* HeroTableViewCell.swift in Sources */,
 				5FA31180269AC5320016B58A /* SplashViewController.swift in Sources */,
